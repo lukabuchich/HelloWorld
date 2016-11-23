@@ -1,6 +1,6 @@
-﻿namespace HelloWorld
+﻿namespace HelloWorld.Forms
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
