@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace HelloWorld.Forms
 {
-    public partial class frmMain : Form
+    public partial class frmPrint : Form
     {
-        public frmMain()
+        public frmPrint()
         {
             InitializeComponent();
-        }
-
-        private void btnStart_Click(object sender, EventArgs e)
-        {
-            frmPrint form = new frmPrint();
-            form.ShowDialog();
         }
     }
 }
